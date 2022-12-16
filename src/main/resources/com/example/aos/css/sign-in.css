@@ -1,0 +1,87 @@
+/*
+Background
+*/
+.background_center{
+    -fx-background-image: url("images/background-signin.png");
+}
+
+.background_right{
+    -fx-background-color: transparent;
+}
+
+.background_right_vbox{
+    -fx-background-color: #DCDCDC;
+    -fx-background-radius: 25px;
+    -fx-border-color: whitesmoke;
+    -fx-border-radius: 25px;
+    -fx-border-width: 3px;
+    -fx-opacity: 0.95;
+}
+
+/*
+Welcome label: "Welcome to Acus City"
+*/
+.welcome_label{
+    -fx-font-family: Arial, sans-serif;
+}
+
+/*
+Text field: Account and password text field
+*/
+.text-field{
+    -fx-background-color: transparent;
+    -fx-border-color: black;
+    -fx-border-radius: 5px;
+    -fx-border-width: 2px;
+}
+
+.text-field:hover{
+    -fx-border-color: #4f48d8;
+}
+
+/*
+Log-in button
+*/
+.log_in{
+    -fx-background-color: #4f48d8;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 10,0,0,1 );
+    -fx-text-fill: whitesmoke;
+}
+
+.log_in:hover{
+    -fx-background-color: #344265;
+    -fx-text-fill: whitesmoke;
+}
+
+.log_in:pressed {
+    -fx-background-color: #0b1522;
+    -fx-text-fill: whitesmoke;
+}
+
+/*
+Sign-in button
+*/
+.sign_up{
+    -fx-background-color: whitesmoke;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 10,0,0,1 );
+}
+
+.sign_up:hover {
+    -fx-background-color: #344265;
+    -fx-text-fill: whitesmoke;
+}
+
+.sign_up:pressed {
+    -fx-background-color: #0b1522;
+    -fx-text-fill: whitesmoke;
+}
+
+/*
+Forgot the password
+*/
+.forgot_password {
+    -fx-background-color: transparent;
+    -fx-text-fill: #4f48d8;
+}
